@@ -1,3 +1,5 @@
+import React from 'react';
+
 const DeleteLastItemFromList = (props) => {
     return(
         <button onClick={props.deleteLastItem} disabled={props.buttonDisabled}>
